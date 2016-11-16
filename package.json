@@ -1,5 +1,5 @@
 {
-  "name": "opensource-advent-challenge-2015",
+  "name": "opensource-advent-challenge-2016",
   "version": "0.0.0",
   "description": "This is the GitHub Page based on the following Template",
   "main": "index.js",
@@ -14,11 +14,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/puzzle/opensource-advent-challenge-2015.git"
+    "url": "https://github.com/puzzle/opensource-advent-challenge-2016.git"
   },
   "author": "hupf",
   "license": "Apache-2",
   "bugs": {
-    "url": "https://github.com/puzzle/opensource-advent-challenge-2015/issues"
+    "url": "https://github.com/puzzle/opensource-advent-challenge-2016/issues"
   }
 }

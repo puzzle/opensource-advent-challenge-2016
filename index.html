@@ -4,9 +4,9 @@ layout: default
 
 <div class="row">
 
-  <div class="app-folders-container"> 
+  <div class="app-folders-container">
     {% for door in site.doors %}
-      {% assign loopindex = forloop.index | modulo: 3 %}      
+      {% assign loopindex = forloop.index | modulo: 3 %}
       {% if loopindex == 1 %}
       <div class="jaf-row jaf-container">
       {% endif %}
@@ -31,7 +31,7 @@ layout: default
             </div>
           </div>
         </div>
-        {% endif %} 
+        {% endif %}
         <div class="col-xs-12 folderContent contributions-day-{{ door.day }} contributions">
           <h2>{{ door.title }}
           {{ door.content }}
@@ -40,5 +40,5 @@ layout: default
           </div><!-- jaf-row jaf-container-->
         {% endif %}
     {% endfor %}
-  </div><!--  .app-folders-container -->    
+  </div><!--  .app-folders-container -->
 </div>
